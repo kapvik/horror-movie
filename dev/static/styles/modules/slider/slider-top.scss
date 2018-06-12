@@ -1,0 +1,30 @@
+.slider-top {
+	margin-top: 60px;
+	position: relative;
+}
+.js-index-slider {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.slick-slide img {
+	max-width: 300px;
+	width: 100%;
+}
+
+.index-slider__controls {
+	position: absolute;
+	top: 35%;
+}
+.icon-arrow {
+	@include size(60px);
+	fill: $redAccent;
+}
+
+.index-slider__controls-prev {
+	transform: rotateY(180deg);
+}
+
+.index-slider__controls-next {
+	right: 0;
+}

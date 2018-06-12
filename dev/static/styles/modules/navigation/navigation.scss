@@ -1,0 +1,20 @@
+nav {
+	background-color: $nav;
+	vertical-align: middle;
+	margin-top: 60px;
+}
+.nav-link {
+	color: $redAccent;
+	font-weight: bold;
+	&:hover {
+		color: #fff;
+	}
+}
+
+.nav-pills {
+	.nav-link {
+		&.active {
+			background-color: $redAccent;
+		}
+	}
+}
