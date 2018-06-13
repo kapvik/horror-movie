@@ -1,0 +1,15 @@
+section.container.subscribe
+	.row
+		.col-sm-7.subscribe-lists.align-self-end
+			h3.text-uppercase.title Subscribe to watch
+			p Sign up now to watch all of our films with new features and shorts added monthly. Among the horror flicks you'll receive with your subscription are:
+			.row.text-nowrap
+				ul.subscribe-list.col-sm-6
+					each title in list1
+						li.left-list__item= title
+				ul.subscribe-list.col-sm-6
+					each title in list2
+						li.right-list__item= title
+			input(type="button" value="Please click here to subscribe").btn.btn-subscribe.text-uppercase
+		.col-sm-5.subscribe-img
+			img(src="./static/images/general/crimsonposter-288x412.jpg")

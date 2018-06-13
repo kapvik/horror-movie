@@ -1,0 +1,48 @@
+.subscribe-lists {
+	text-align: center;
+	input {
+		background-color: $redAccent;
+		color: #fff;
+	}
+	p {
+		max-width: 500px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.row {
+		line-height: 1.75;
+	}
+}
+.subscribe-list {
+	list-style-type: none;
+	font-size: 14px;
+	word-break: keep-all;
+	li {
+		
+		&:hover {
+			color: $redAccent;
+		}
+	}
+	@media only screen and (max-width: 425px) {
+		margin-top: 10px;
+		li {
+			text-align: center;
+		}	
+	}
+	
+}
+
+.left-list__item {
+	text-align: left;
+}
+
+.right-list__item {
+	text-align: right;
+}
+
+.subscribe-img {
+	text-align: center;
+	img {
+		max-width: 100%;
+	}
+}

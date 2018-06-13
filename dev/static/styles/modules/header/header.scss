@@ -8,10 +8,28 @@ body {
 header {
 	margin-top: 60px;
 }
-.header-card {
-	background-color: $redCard;
+
+.header-left {
+	text-align: center;
+	a {
+		color: #fff;
+		&:hover {
+			color: $redAccent;
+		}
+	}
 }
 
+.header-right {
+	background-color: $redCard;
+	padding: 8px;
+}
+
+.header-card__img {
+	img {
+		border-radius: 50%;
+		@include size(175px);
+	}
+}
 
 .card__text-italic {
 	font-family: "Courgette-Regular";
