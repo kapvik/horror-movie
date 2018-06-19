@@ -1,8 +1,18 @@
 .title {
 	font-size: 36px;
 	color: $redAccent;
+	&:hover {
+		color: #fff;
+	}
 }
 
+.sub-title {
+	font-size: 18px;
+	color: #fff;
+	&:hover {
+		color: $redAccent;
+	}
+}
 .accent-title {
 	color: $redAccent;
 }
